@@ -1,0 +1,10 @@
+@model Employee
+<form asp-controller="Home" asp-action="GuardarDatos" method="post">
+    <div class="row">
+        <div class="form-group col-md-4">
+            <label>Nombre</label>
+            <input type="text" class="form-control" asp-for="Nombre">
+        </div>
+    </div>
+    <input type="submit" value="Guardar">
+</form>
